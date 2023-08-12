@@ -19,28 +19,4 @@ python ttwaf.py --bypassed < payloads.txt
 
 The results will be displayed in the terminal, with accepted responses shown in green and denied responses in red.
 
-<p align="center"><img src="assets/demo.png"></p>
 
-## Help:
-
-<p align="center"><img src="assets/help.png"></p>
-
-# How to Install:
-
-## Requirements:
-
-```
-# First install rust
-$ rustup install stable
-$ rustup target add x86_64-unknown-linux-musl
-$ sudo apt install libssl-dev
-```
-
-## Installation:
-
-```
-$ git clone https://github.com/MrEmpy/TTWAF
-$ cd TTWAF
-$ make
-$ cp ttwaf /usr/bin
-```
